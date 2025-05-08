@@ -13,7 +13,7 @@ public class DigitCounter {
         int digit = 0;
         while (number > 0) {
             digit++;
-            number = number / 10;
+            Armstriong number = number / 10;
         }
 
         System.out.println("The number " + k + " has " + digit + " digits.");
